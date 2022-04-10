@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { proxyArr } from './treeIterate';
+window.proxyArr=proxyArr
 ReactDOM.render(
   <React.StrictMode>
     <App />
